@@ -11,7 +11,7 @@ const Messages = () => {
     const fetchMessages = async () => {
       try {
         const { data } = await axios.get(
-          "https://hospital-management-system-server.onrender.com/api/v1/message/getall",
+          "https://zerobills-server.onrender.com/api/v1/message/getall",
           { withCredentials: true }
         );
         setMessages(data.messages);

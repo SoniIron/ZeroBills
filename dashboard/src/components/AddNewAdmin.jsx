@@ -22,7 +22,7 @@ const AddNewAdmin = () => {
     try {
       await axios
         .post(
-          "https://hospital-management-system-server.onrender.com/api/v1/user/admin/addnew",
+          "https://zerobills-server.onrender.com/api/v1/user/admin/addnew",
           { firstName, lastName, email, phone, dob, gender, password },
           {
             withCredentials: true,
