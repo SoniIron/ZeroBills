@@ -22,7 +22,7 @@ const Register = () => {
     try {
       await axios
         .post(
-          "https://hospital-management-system-server.onrender.com/api/v1/user/patient/register",
+          "https://zerobills-server.onrender.com/api/v1/user/patient/register",
           { firstName, lastName, email, phone, dob, gender, password,role:"Patient" },
           {
             withCredentials: true,
